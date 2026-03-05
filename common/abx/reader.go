@@ -92,6 +92,10 @@ func (r *Reader) Token() (token xml.Token, err error) {
 		_, err = r.readUTF()
 		return
 	case ATTRIBUTE:
+		err = r.reader.UnreadByte()
+		if err != nil {
+			return
+		}
 		_, err = r.readAttribute()
 		return
 	}
