@@ -5,8 +5,8 @@ import (
 	"encoding/binary"
 	"testing"
 
-	"github.com/metacubex/sing/common/domain"
-	"github.com/metacubex/sing/common/varbin"
+	"github.com/kyuofox/sing/common/domain"
+	"github.com/kyuofox/sing/common/varbin"
 
 	"github.com/stretchr/testify/require"
 )

@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/metacubex/sing/common/json/internal/contextjson"
+	"github.com/kyuofox/sing/common/json/internal/contextjson"
 
 	"github.com/stretchr/testify/require"
 )

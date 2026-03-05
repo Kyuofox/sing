@@ -1,6 +1,6 @@
 package pause
 
-import "github.com/metacubex/sing/common/x/list"
+import "github.com/kyuofox/sing/common/x/list"
 
 type Manager interface {
 	DevicePause()

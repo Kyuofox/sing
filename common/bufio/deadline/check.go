@@ -1,8 +1,8 @@
 package deadline
 
 import (
-	"github.com/metacubex/sing/common"
-	N "github.com/metacubex/sing/common/network"
+	"github.com/kyuofox/sing/common"
+	N "github.com/kyuofox/sing/common/network"
 )
 
 type WithoutReadDeadline interface {

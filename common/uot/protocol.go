@@ -4,9 +4,9 @@ import (
 	"encoding/binary"
 	"io"
 
-	"github.com/metacubex/sing/common"
-	"github.com/metacubex/sing/common/buf"
-	M "github.com/metacubex/sing/common/metadata"
+	"github.com/kyuofox/sing/common"
+	"github.com/kyuofox/sing/common/buf"
+	M "github.com/kyuofox/sing/common/metadata"
 )
 
 const (

@@ -3,7 +3,7 @@ package format
 import (
 	"strconv"
 
-	"github.com/metacubex/sing/common"
+	"github.com/kyuofox/sing/common"
 )
 
 type Stringer interface {

@@ -6,8 +6,8 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/metacubex/sing/common"
-	E "github.com/metacubex/sing/common/exceptions"
+	"github.com/kyuofox/sing/common"
+	E "github.com/kyuofox/sing/common/exceptions"
 )
 
 func UnmarshalExtended[T any](content []byte) (T, error) {

@@ -3,7 +3,7 @@ package domain_test
 import (
 	"testing"
 
-	"github.com/metacubex/sing/common/domain"
+	"github.com/kyuofox/sing/common/domain"
 
 	"github.com/stretchr/testify/require"
 )

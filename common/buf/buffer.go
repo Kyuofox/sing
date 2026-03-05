@@ -6,10 +6,10 @@ import (
 	"net"
 	"sync/atomic"
 
-	"github.com/metacubex/sing/common"
-	"github.com/metacubex/sing/common/debug"
-	E "github.com/metacubex/sing/common/exceptions"
-	F "github.com/metacubex/sing/common/format"
+	"github.com/kyuofox/sing/common"
+	"github.com/kyuofox/sing/common/debug"
+	E "github.com/kyuofox/sing/common/exceptions"
+	F "github.com/kyuofox/sing/common/format"
 )
 
 type Buffer struct {

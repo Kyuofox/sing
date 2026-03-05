@@ -3,10 +3,10 @@ package bufio
 import (
 	"net"
 
-	"github.com/metacubex/sing/common"
-	"github.com/metacubex/sing/common/buf"
-	M "github.com/metacubex/sing/common/metadata"
-	N "github.com/metacubex/sing/common/network"
+	"github.com/kyuofox/sing/common"
+	"github.com/kyuofox/sing/common/buf"
+	M "github.com/kyuofox/sing/common/metadata"
+	N "github.com/kyuofox/sing/common/network"
 )
 
 var _ N.NetPacketConn = (*FallbackPacketConn)(nil)

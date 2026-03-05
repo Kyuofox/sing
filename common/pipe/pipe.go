@@ -11,7 +11,7 @@ import (
 	"sync"
 	"time"
 
-	N "github.com/metacubex/sing/common/network"
+	N "github.com/kyuofox/sing/common/network"
 )
 
 // Deadline is an abstraction for handling timeouts.

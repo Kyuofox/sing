@@ -7,11 +7,11 @@ import (
 	"os"
 	"strings"
 
-	E "github.com/metacubex/sing/common/exceptions"
-	M "github.com/metacubex/sing/common/metadata"
-	N "github.com/metacubex/sing/common/network"
-	"github.com/metacubex/sing/protocol/socks/socks4"
-	"github.com/metacubex/sing/protocol/socks/socks5"
+	E "github.com/kyuofox/sing/common/exceptions"
+	M "github.com/kyuofox/sing/common/metadata"
+	N "github.com/kyuofox/sing/common/network"
+	"github.com/kyuofox/sing/protocol/socks/socks4"
+	"github.com/kyuofox/sing/protocol/socks/socks5"
 )
 
 type Version uint8

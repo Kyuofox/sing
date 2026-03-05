@@ -3,7 +3,7 @@ package bufio
 import (
 	"io"
 
-	N "github.com/metacubex/sing/common/network"
+	N "github.com/kyuofox/sing/common/network"
 )
 
 func CreateReadWaiter(reader io.Reader) (N.ReadWaiter, bool) {

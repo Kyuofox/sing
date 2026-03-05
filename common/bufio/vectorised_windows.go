@@ -5,9 +5,9 @@ import (
 	"os"
 	"sync"
 
-	"github.com/metacubex/sing/common/buf"
-	"github.com/metacubex/sing/common/control"
-	M "github.com/metacubex/sing/common/metadata"
+	"github.com/kyuofox/sing/common/buf"
+	"github.com/kyuofox/sing/common/control"
+	M "github.com/kyuofox/sing/common/metadata"
 
 	"golang.org/x/sys/windows"
 )

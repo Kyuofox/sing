@@ -3,8 +3,8 @@ package badoption
 import (
 	"context"
 
-	E "github.com/metacubex/sing/common/exceptions"
-	"github.com/metacubex/sing/common/json"
+	E "github.com/kyuofox/sing/common/exceptions"
+	"github.com/kyuofox/sing/common/json"
 )
 
 type Listable[T any] []T

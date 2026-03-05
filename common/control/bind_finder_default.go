@@ -6,7 +6,7 @@ import (
 	"sync"
 	_ "unsafe"
 
-	E "github.com/metacubex/sing/common/exceptions"
+	E "github.com/kyuofox/sing/common/exceptions"
 )
 
 var _ InterfaceFinder = (*DefaultInterfaceFinder)(nil)

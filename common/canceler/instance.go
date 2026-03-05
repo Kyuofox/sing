@@ -6,7 +6,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/metacubex/sing/common"
+	"github.com/kyuofox/sing/common"
 )
 
 type Instance struct {

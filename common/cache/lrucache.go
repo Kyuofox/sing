@@ -6,8 +6,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/metacubex/sing/common"
-	"github.com/metacubex/sing/common/x/list"
+	"github.com/kyuofox/sing/common"
+	"github.com/kyuofox/sing/common/x/list"
 )
 
 type Option[K comparable, V any] func(*LruCache[K, V])

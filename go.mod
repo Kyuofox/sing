@@ -1,4 +1,4 @@
-module github.com/metacubex/sing
+module github.com/kyuofox/sing
 
 go 1.20
 

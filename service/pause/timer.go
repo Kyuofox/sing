@@ -3,7 +3,7 @@ package pause
 import (
 	"time"
 
-	"github.com/metacubex/sing/common/x/list"
+	"github.com/kyuofox/sing/common/x/list"
 )
 
 func RegisterTicker(manager Manager, ticker *time.Ticker, duration time.Duration, resume func()) *list.Element[Callback] {

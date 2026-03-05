@@ -3,7 +3,7 @@ package service
 import (
 	"context"
 
-	"github.com/metacubex/sing/common"
+	"github.com/kyuofox/sing/common"
 )
 
 func ContextWithRegistry(ctx context.Context, registry Registry) context.Context {

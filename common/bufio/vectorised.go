@@ -6,10 +6,10 @@ import (
 	"os"
 	"syscall"
 
-	"github.com/metacubex/sing/common"
-	"github.com/metacubex/sing/common/buf"
-	M "github.com/metacubex/sing/common/metadata"
-	N "github.com/metacubex/sing/common/network"
+	"github.com/kyuofox/sing/common"
+	"github.com/kyuofox/sing/common/buf"
+	M "github.com/kyuofox/sing/common/metadata"
+	N "github.com/kyuofox/sing/common/network"
 )
 
 func NewVectorisedWriter(writer io.Writer) N.VectorisedWriter {

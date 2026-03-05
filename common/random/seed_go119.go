@@ -8,7 +8,7 @@ import (
 	mRand "math/rand"
 	"sync"
 
-	"github.com/metacubex/sing/common"
+	"github.com/kyuofox/sing/common"
 )
 
 var initSeedOnce sync.Once

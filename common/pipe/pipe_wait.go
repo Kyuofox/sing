@@ -5,8 +5,8 @@ import (
 	"net"
 	"os"
 
-	"github.com/metacubex/sing/common/buf"
-	N "github.com/metacubex/sing/common/network"
+	"github.com/kyuofox/sing/common/buf"
+	N "github.com/kyuofox/sing/common/network"
 )
 
 var _ N.ReadWaiter = (*pipe)(nil)

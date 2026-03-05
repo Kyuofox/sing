@@ -5,8 +5,8 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/metacubex/sing/common/x/list"
-	"github.com/metacubex/sing/service"
+	"github.com/kyuofox/sing/common/x/list"
+	"github.com/kyuofox/sing/service"
 )
 
 type defaultManager struct {

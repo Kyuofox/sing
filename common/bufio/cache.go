@@ -4,9 +4,9 @@ import (
 	"io"
 	"net"
 
-	"github.com/metacubex/sing/common/buf"
-	M "github.com/metacubex/sing/common/metadata"
-	N "github.com/metacubex/sing/common/network"
+	"github.com/kyuofox/sing/common/buf"
+	M "github.com/kyuofox/sing/common/metadata"
+	N "github.com/kyuofox/sing/common/network"
 )
 
 type CachedConn struct {

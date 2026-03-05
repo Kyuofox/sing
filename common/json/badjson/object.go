@@ -5,11 +5,11 @@ import (
 	"context"
 	"strings"
 
-	"github.com/metacubex/sing/common"
-	E "github.com/metacubex/sing/common/exceptions"
-	"github.com/metacubex/sing/common/json"
-	"github.com/metacubex/sing/common/x/collections"
-	"github.com/metacubex/sing/common/x/linkedhashmap"
+	"github.com/kyuofox/sing/common"
+	E "github.com/kyuofox/sing/common/exceptions"
+	"github.com/kyuofox/sing/common/json"
+	"github.com/kyuofox/sing/common/x/collections"
+	"github.com/kyuofox/sing/common/x/linkedhashmap"
 )
 
 type JSONObject struct {

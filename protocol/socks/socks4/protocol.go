@@ -7,11 +7,11 @@ import (
 	"math"
 	"net/netip"
 
-	"github.com/metacubex/sing/common"
-	"github.com/metacubex/sing/common/buf"
-	E "github.com/metacubex/sing/common/exceptions"
-	M "github.com/metacubex/sing/common/metadata"
-	"github.com/metacubex/sing/common/varbin"
+	"github.com/kyuofox/sing/common"
+	"github.com/kyuofox/sing/common/buf"
+	E "github.com/kyuofox/sing/common/exceptions"
+	M "github.com/kyuofox/sing/common/metadata"
+	"github.com/kyuofox/sing/common/varbin"
 )
 
 const (

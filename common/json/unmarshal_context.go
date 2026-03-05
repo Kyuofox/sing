@@ -3,7 +3,7 @@
 package json
 
 import (
-	json "github.com/metacubex/sing/common/json/internal/contextjson"
+	json "github.com/kyuofox/sing/common/json/internal/contextjson"
 )
 
 var UnmarshalDisallowUnknownFields = json.UnmarshalDisallowUnknownFields

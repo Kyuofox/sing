@@ -6,9 +6,9 @@ import (
 	"net/netip"
 	"time"
 
-	"github.com/metacubex/sing/common"
-	E "github.com/metacubex/sing/common/exceptions"
-	M "github.com/metacubex/sing/common/metadata"
+	"github.com/kyuofox/sing/common"
+	E "github.com/kyuofox/sing/common/exceptions"
+	M "github.com/kyuofox/sing/common/metadata"
 )
 
 const DefaultFallbackDelay = 300 * time.Millisecond

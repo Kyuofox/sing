@@ -1,6 +1,6 @@
 package list
 
-import "github.com/metacubex/sing/common"
+import "github.com/kyuofox/sing/common"
 
 func (l List[T]) Size() int {
 	return l.len

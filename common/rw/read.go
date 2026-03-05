@@ -3,7 +3,7 @@ package rw
 import (
 	"io"
 
-	"github.com/metacubex/sing/common"
+	"github.com/kyuofox/sing/common"
 )
 
 func SkipN(reader io.Reader, size int) error {

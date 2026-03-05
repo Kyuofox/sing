@@ -4,8 +4,8 @@ import (
 	"io"
 	"sync"
 
-	"github.com/metacubex/sing/common/buf"
-	N "github.com/metacubex/sing/common/network"
+	"github.com/kyuofox/sing/common/buf"
+	N "github.com/kyuofox/sing/common/network"
 )
 
 type RaceWriter struct {

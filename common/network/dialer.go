@@ -5,7 +5,7 @@ import (
 	"net"
 	"net/netip"
 
-	M "github.com/metacubex/sing/common/metadata"
+	M "github.com/kyuofox/sing/common/metadata"
 )
 
 type Dialer interface {

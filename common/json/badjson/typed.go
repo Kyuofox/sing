@@ -5,9 +5,9 @@ import (
 	"context"
 	"strings"
 
-	E "github.com/metacubex/sing/common/exceptions"
-	"github.com/metacubex/sing/common/json"
-	"github.com/metacubex/sing/common/x/linkedhashmap"
+	E "github.com/kyuofox/sing/common/exceptions"
+	"github.com/kyuofox/sing/common/json"
+	"github.com/kyuofox/sing/common/x/linkedhashmap"
 )
 
 type TypedMap[K comparable, V any] struct {

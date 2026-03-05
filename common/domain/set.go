@@ -5,7 +5,7 @@ import (
 	"io"
 	"math/bits"
 
-	"github.com/metacubex/sing/common/varbin"
+	"github.com/kyuofox/sing/common/varbin"
 )
 
 // mod from https://github.com/openacid/succinct

@@ -1,7 +1,7 @@
 package network
 
 import (
-	"github.com/metacubex/sing/common"
+	"github.com/kyuofox/sing/common"
 )
 
 type ReadCloser interface {

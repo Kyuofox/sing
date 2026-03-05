@@ -3,8 +3,8 @@ package network
 import (
 	"sync"
 
-	"github.com/metacubex/sing/common/buf"
-	M "github.com/metacubex/sing/common/metadata"
+	"github.com/kyuofox/sing/common/buf"
+	M "github.com/kyuofox/sing/common/metadata"
 )
 
 type PacketBuffer struct {

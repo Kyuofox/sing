@@ -7,8 +7,8 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/metacubex/sing/common/rw"
-	"github.com/metacubex/sing/service"
+	"github.com/kyuofox/sing/common/rw"
+	"github.com/kyuofox/sing/service"
 )
 
 var _ Manager = (*defaultManager)(nil)

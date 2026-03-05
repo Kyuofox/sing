@@ -3,7 +3,7 @@ package rw
 import (
 	"io"
 
-	"github.com/metacubex/sing/common/buf"
+	"github.com/kyuofox/sing/common/buf"
 )
 
 var Discard io.Writer = discard{}

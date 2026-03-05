@@ -5,8 +5,8 @@ import (
 	"net/netip"
 	"unsafe"
 
-	"github.com/metacubex/sing/common"
-	M "github.com/metacubex/sing/common/metadata"
+	"github.com/kyuofox/sing/common"
+	M "github.com/kyuofox/sing/common/metadata"
 )
 
 type InterfaceFinder interface {

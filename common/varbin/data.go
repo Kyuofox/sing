@@ -5,11 +5,11 @@ import (
 	"io"
 	"reflect"
 
-	"github.com/metacubex/sing/common"
-	"github.com/metacubex/sing/common/binary"
-	"github.com/metacubex/sing/common/buf"
-	"github.com/metacubex/sing/common/bufio"
-	E "github.com/metacubex/sing/common/exceptions"
+	"github.com/kyuofox/sing/common"
+	"github.com/kyuofox/sing/common/binary"
+	"github.com/kyuofox/sing/common/buf"
+	"github.com/kyuofox/sing/common/bufio"
+	E "github.com/kyuofox/sing/common/exceptions"
 )
 
 // Deprecated: not well-designed. Use manual serialization or JSON/gRPC instead.

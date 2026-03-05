@@ -7,13 +7,13 @@ import (
 	"os"
 	"time"
 
-	"github.com/metacubex/sing/common"
-	"github.com/metacubex/sing/common/buf"
-	"github.com/metacubex/sing/common/cache"
-	E "github.com/metacubex/sing/common/exceptions"
-	M "github.com/metacubex/sing/common/metadata"
-	N "github.com/metacubex/sing/common/network"
-	"github.com/metacubex/sing/common/pipe"
+	"github.com/kyuofox/sing/common"
+	"github.com/kyuofox/sing/common/buf"
+	"github.com/kyuofox/sing/common/cache"
+	E "github.com/kyuofox/sing/common/exceptions"
+	M "github.com/kyuofox/sing/common/metadata"
+	N "github.com/kyuofox/sing/common/network"
+	"github.com/kyuofox/sing/common/pipe"
 )
 
 type Handler interface {

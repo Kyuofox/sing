@@ -3,7 +3,7 @@ package atomic
 import (
 	"sync/atomic"
 
-	"github.com/metacubex/sing/common"
+	"github.com/kyuofox/sing/common"
 )
 
 // Deprecated: moved to common.TypedValue

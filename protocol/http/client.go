@@ -9,11 +9,11 @@ import (
 	"net/url"
 	"os"
 
-	"github.com/metacubex/sing/common/buf"
-	"github.com/metacubex/sing/common/bufio"
-	E "github.com/metacubex/sing/common/exceptions"
-	M "github.com/metacubex/sing/common/metadata"
-	N "github.com/metacubex/sing/common/network"
+	"github.com/kyuofox/sing/common/buf"
+	"github.com/kyuofox/sing/common/bufio"
+	E "github.com/kyuofox/sing/common/exceptions"
+	M "github.com/kyuofox/sing/common/metadata"
+	N "github.com/kyuofox/sing/common/network"
 )
 
 var _ N.Dialer = (*Client)(nil)

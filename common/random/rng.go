@@ -5,7 +5,7 @@ import (
 	"io"
 	"sync"
 
-	"github.com/metacubex/sing/common"
+	"github.com/kyuofox/sing/common"
 )
 
 const (

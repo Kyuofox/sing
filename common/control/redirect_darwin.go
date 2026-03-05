@@ -7,7 +7,7 @@ import (
 	"syscall"
 	"unsafe"
 
-	M "github.com/metacubex/sing/common/metadata"
+	M "github.com/kyuofox/sing/common/metadata"
 
 	"golang.org/x/sys/unix"
 )

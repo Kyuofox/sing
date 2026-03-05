@@ -3,9 +3,9 @@ package bufio
 import (
 	"io"
 
-	"github.com/metacubex/sing/common"
-	"github.com/metacubex/sing/common/buf"
-	N "github.com/metacubex/sing/common/network"
+	"github.com/kyuofox/sing/common"
+	"github.com/kyuofox/sing/common/buf"
+	N "github.com/kyuofox/sing/common/network"
 )
 
 func CopyExtendedOnce(destination io.Writer, source io.Reader, readCounters []N.CountFunc, writeCounters []N.CountFunc) (n int64, err error) {

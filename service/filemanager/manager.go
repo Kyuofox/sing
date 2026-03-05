@@ -4,7 +4,7 @@ import (
 	"context"
 	"os"
 
-	"github.com/metacubex/sing/service"
+	"github.com/kyuofox/sing/service"
 )
 
 type Manager interface {

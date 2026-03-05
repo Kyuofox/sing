@@ -5,9 +5,9 @@ import (
 	"os"
 	"reflect"
 
-	"github.com/metacubex/sing/common"
-	E "github.com/metacubex/sing/common/exceptions"
-	"github.com/metacubex/sing/common/json"
+	"github.com/kyuofox/sing/common"
+	E "github.com/kyuofox/sing/common/exceptions"
+	"github.com/kyuofox/sing/common/json"
 )
 
 func Omitempty[T any](ctx context.Context, value T) (T, error) {

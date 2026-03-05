@@ -5,8 +5,8 @@ import (
 	"time"
 	_ "unsafe"
 
-	E "github.com/metacubex/sing/common/exceptions"
-	N "github.com/metacubex/sing/common/network"
+	E "github.com/kyuofox/sing/common/exceptions"
+	N "github.com/kyuofox/sing/common/network"
 
 	"golang.org/x/sys/unix"
 )

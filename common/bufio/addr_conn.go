@@ -4,7 +4,7 @@ import (
 	"io"
 	"net"
 
-	M "github.com/metacubex/sing/common/metadata"
+	M "github.com/kyuofox/sing/common/metadata"
 )
 
 type AddrConn struct {

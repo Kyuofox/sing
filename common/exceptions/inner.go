@@ -3,7 +3,7 @@ package exceptions
 import (
 	"errors"
 
-	"github.com/metacubex/sing/common"
+	"github.com/kyuofox/sing/common"
 )
 
 type HasInnerError interface {

@@ -3,8 +3,8 @@ package rw
 import (
 	"io"
 
-	"github.com/metacubex/sing/common"
-	"github.com/metacubex/sing/common/binary"
+	"github.com/kyuofox/sing/common"
+	"github.com/kyuofox/sing/common/binary"
 )
 
 type stubByteReader struct {

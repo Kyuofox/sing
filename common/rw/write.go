@@ -3,7 +3,7 @@ package rw
 import (
 	"io"
 
-	"github.com/metacubex/sing/common"
+	"github.com/kyuofox/sing/common"
 )
 
 // Deprecated: wtf is this?

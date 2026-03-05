@@ -1,6 +1,6 @@
 package auth
 
-import "github.com/metacubex/sing/common"
+import "github.com/kyuofox/sing/common"
 
 type User struct {
 	Username string

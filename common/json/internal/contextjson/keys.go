@@ -3,7 +3,7 @@ package json
 import (
 	"reflect"
 
-	"github.com/metacubex/sing/common"
+	"github.com/kyuofox/sing/common"
 )
 
 func ObjectKeys(object reflect.Type) []string {

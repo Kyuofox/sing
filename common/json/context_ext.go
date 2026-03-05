@@ -3,7 +3,7 @@ package json
 import (
 	"context"
 
-	"github.com/metacubex/sing/common/json/internal/contextjson"
+	"github.com/kyuofox/sing/common/json/internal/contextjson"
 )
 
 var (

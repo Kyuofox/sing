@@ -8,15 +8,15 @@ import (
 	"net/netip"
 	"os"
 
-	"github.com/metacubex/sing/common"
-	"github.com/metacubex/sing/common/auth"
-	"github.com/metacubex/sing/common/bufio"
-	E "github.com/metacubex/sing/common/exceptions"
-	M "github.com/metacubex/sing/common/metadata"
-	N "github.com/metacubex/sing/common/network"
-	"github.com/metacubex/sing/common/varbin"
-	"github.com/metacubex/sing/protocol/socks/socks4"
-	"github.com/metacubex/sing/protocol/socks/socks5"
+	"github.com/kyuofox/sing/common"
+	"github.com/kyuofox/sing/common/auth"
+	"github.com/kyuofox/sing/common/bufio"
+	E "github.com/kyuofox/sing/common/exceptions"
+	M "github.com/kyuofox/sing/common/metadata"
+	N "github.com/kyuofox/sing/common/network"
+	"github.com/kyuofox/sing/common/varbin"
+	"github.com/kyuofox/sing/protocol/socks/socks4"
+	"github.com/kyuofox/sing/protocol/socks/socks5"
 )
 
 type Handler interface {

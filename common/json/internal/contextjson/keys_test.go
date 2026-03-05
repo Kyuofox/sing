@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	json "github.com/metacubex/sing/common/json/internal/contextjson"
+	json "github.com/kyuofox/sing/common/json/internal/contextjson"
 
 	"github.com/stretchr/testify/require"
 )

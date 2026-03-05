@@ -9,8 +9,8 @@ import (
 	"io"
 	"strconv"
 
-	. "github.com/metacubex/sing/common/abx/internal"
-	E "github.com/metacubex/sing/common/exceptions"
+	. "github.com/kyuofox/sing/common/abx/internal"
+	E "github.com/kyuofox/sing/common/exceptions"
 )
 
 var _ xml.TokenReader = (*Reader)(nil)

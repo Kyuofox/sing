@@ -3,8 +3,8 @@ package control
 import (
 	"syscall"
 
-	"github.com/metacubex/sing/common"
-	E "github.com/metacubex/sing/common/exceptions"
+	"github.com/kyuofox/sing/common"
+	E "github.com/kyuofox/sing/common/exceptions"
 )
 
 type Func = func(network, address string, conn syscall.RawConn) error

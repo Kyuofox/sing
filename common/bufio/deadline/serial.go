@@ -4,10 +4,10 @@ import (
 	"net"
 	"sync"
 
-	"github.com/metacubex/sing/common/buf"
-	"github.com/metacubex/sing/common/debug"
-	M "github.com/metacubex/sing/common/metadata"
-	N "github.com/metacubex/sing/common/network"
+	"github.com/kyuofox/sing/common/buf"
+	"github.com/kyuofox/sing/common/debug"
+	M "github.com/kyuofox/sing/common/metadata"
+	N "github.com/kyuofox/sing/common/network"
 )
 
 type SerialConn struct {

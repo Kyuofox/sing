@@ -5,7 +5,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/metacubex/sing/common/buf"
+	"github.com/kyuofox/sing/common/buf"
 )
 
 type fallbackReader struct {
